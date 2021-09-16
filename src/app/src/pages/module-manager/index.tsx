@@ -80,7 +80,7 @@ export const ModuleManager: React.FC = () => {
         <FormControl
           className={classNames(classes.formControl, classes.selectControl)}
         >
-          <FormLabel>version</FormLabel>
+          <FormLabel>version select</FormLabel>
           {versionSearching ? (
             <Skeleton width={100} height={theme.spacing(6)}></Skeleton>
           ) : (

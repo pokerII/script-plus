@@ -3,10 +3,9 @@ import { spawn } from "child_process";
 import { platform } from "os";
 import { resolve } from "path";
 // TODO: Use same version of snowpack
-import {
-  startServer,
-  loadConfiguration,
-} from "../../node_modules/snowpack/lib/index.js";
+import allModule from "snowpack";
+
+const { startServer, loadConfiguration } = allModule;;
 const yarn = platform() === "win32" ? "yarn.cmd" : "yarn";
 const projectRoot = resolve(process.cwd(), "..", "..");
 (async () => {

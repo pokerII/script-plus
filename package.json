@@ -5,6 +5,10 @@
   "extensionKind": [
     "ui"
   ],
+  "private": true,
+  "workspaces": [
+	"src/app"
+  ],
   "keywords": [
     "javascript",
     "typescript",
@@ -119,7 +123,7 @@
     "ramda": "^0.27.1",
     "rxjs": "^7.3.0",
     "semver": "^7.3.5",
-    "snowpack": "^3.6.2",
+    "snowpack": "^3.8.8",
     "taio": "^0.4.0",
     "typescript": "^4.3.2",
     "vsce": "^1.88.0"

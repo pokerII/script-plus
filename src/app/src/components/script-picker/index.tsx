@@ -54,7 +54,7 @@ export const ScriptPicker: React.FC<IScriptPickerProp> = ({ onChange }) => {
         <RefreshOutlined></RefreshOutlined>
       </IconButton>
       {script == null ? (
-        "No scripts"
+        "No scripts2"
       ) : (
         <FormControl className={classes.selectControl}>
           <InputLabel>Script name</InputLabel>
